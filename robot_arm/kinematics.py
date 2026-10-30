@@ -58,7 +58,7 @@ def inverseKinmatics(x, y, z):
     beta = math.acos(cosBeta)
     gamma = math.atan2(z, s)
 
-    axis1Angle_rad = math.atan2(x, y)
+    axis1Angle_rad = -math.atan2(x, y)
     axis2Angle_rad = gamma + beta
     axis3Angle_rad = -(axis2Angle_rad - (math.pi - alpha))
 
