@@ -6,11 +6,6 @@ import time
 import math
 
 
-MOTOR_1_CAN_ID = 1
-MOTOR_2_CAN_ID = 2
-MOTOR_3_CAN_ID = 3
-MOTOR_4_CAN_ID = 4
-
 RIGHT_AXIS_X = 2
 RIGHT_AXIS_Y = 5
 LEFT_AXIS_X = 0
